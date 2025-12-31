@@ -1,7 +1,7 @@
 **🚀 Job Listing Portal**
 
 A full-stack Job Listing Portal designed to connect job seekers and employers through a modern, role-based web application.
-The project focuses on clean UI, scalable architecture, and real-world hiring workflows.
+The project focuses on clean UI, scalable architecture and real-world hiring workflows.
 
 **✨ Features**
 🔐 Authentication & Authorization
