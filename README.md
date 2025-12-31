@@ -52,8 +52,7 @@ Job seeker dashboard (UI in progress)
 
 Recent jobs and applications overview
 
-**🎨 UI / UX
-**
+**🎨 UI / UX**
 Modern responsive UI using Tailwind CSS
 
 Gradient hero sections
