@@ -1,8 +1,9 @@
-🚀 Job Listing Portal
+**🚀 Job Listing Portal**
 
 A full-stack Job Listing Portal designed to connect job seekers and employers through a modern, role-based web application.
 The project focuses on clean UI, scalable architecture, and real-world hiring workflows.
-✨ Features
+
+**✨ Features**
 🔐 Authentication & Authorization
 
 User registration & login
@@ -13,7 +14,7 @@ Role-based access (Job Seeker / Employer)
 
 Protected routes
 
-👤 Profile Management
+**👤 Profile Management**
 
 Job seeker profile (skills, education, experience)
 
@@ -23,7 +24,7 @@ Resume upload UI
 
 Profile edit & update functionality (frontend complete)
 
-🔎 Job Search & Listings
+**🔎 Job Search & Listings**
 
 Browse all jobs
 
@@ -33,7 +34,7 @@ Job detail pages
 
 Clean and responsive job cards
 
-📄 Job Applications
+**📄 Job Applications**
 
 Apply for jobs
 
@@ -43,7 +44,7 @@ Job seeker applications dashboard
 
 Employer application management UI
 
-📊 Dashboards
+**📊 Dashboards**
 
 Employer dashboard with statistics
 
@@ -51,8 +52,8 @@ Job seeker dashboard (UI in progress)
 
 Recent jobs and applications overview
 
-🎨 UI / UX
-
+**🎨 UI / UX
+**
 Modern responsive UI using Tailwind CSS
 
 Gradient hero sections
@@ -61,7 +62,7 @@ Reusable components
 
 Mobile-friendly design
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 Frontend
 
 React.js
@@ -96,28 +97,4 @@ Postman
 
 VS Code
 
-📁 Project Structure
-Job-Listing-Portal/
-│
-├── frontend/
-│   ├── src/
-│   │   ├── api/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── context/
-│   │   ├── routes/
-│   │   └── styles/
-│   └── package.json
-│
-├── backend/
-│   ├── src/
-│   │   ├── config/
-│   │   ├── controllers/
-│   │   ├── middleware/
-│   │   ├── models/
-│   │   ├── routes/
-│   │   └── utils/
-│   └── app.js
-│
-├── .gitignore
-└── README.md
+
