@@ -14,7 +14,7 @@ import { applicationApi } from "../../api/applicationApi";
 import { notificationApi } from "../../api/notificationApi";
 import { useAuth } from "../../context/AuthContext";
 
-//const socket = io("http://localhost:5000");
+//const socket = io("https://job-listing-portal-dpov.onrender.com/");
 
 const EmployerDashboard = () => {
   const { user } = useAuth();

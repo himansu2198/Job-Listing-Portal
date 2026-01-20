@@ -204,7 +204,7 @@ const EmployerJobApplicationsPage = () => {
                 {/* View Resume Link */}
                 {app.resume && (
                   <a
-                    href={`http://localhost:5000/${app.resume}`}
+                    href={`https://job-listing-portal-dpov.onrender.com/${app.resume}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="ml-4 text-sm text-blue-600 hover:underline"

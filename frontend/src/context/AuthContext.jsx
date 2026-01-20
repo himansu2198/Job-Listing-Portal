@@ -30,7 +30,7 @@ export const AuthProvider = ({ children }) => {
   // ✅ REAL LOGIN
   const login = async (email, password) => {
     const { data } = await axios.post(
-      "http://localhost:5000/api/auth/login",
+      "https://job-listing-portal-dpov.onrender.com/api/auth/login",
       { email, password }
     );
 
@@ -50,7 +50,7 @@ export const AuthProvider = ({ children }) => {
   // ✅ REAL REGISTER
   const register = async (formData) => {
     const { data } = await axios.post(
-      "http://localhost:5000/api/auth/register",
+      "https://job-listing-portal-dpov.onrender.com/api/auth/register",
       formData
     );
 
