@@ -9,7 +9,7 @@ const authRoutes = require("./routes/authRoutes");
 const jobRoutes = require("./routes/jobRoutes");
 const applicationRoutes = require("./routes/applicationRoutes");
 const notificationRoutes = require("./routes/notificationRoutes");
-const profileRoutes = require("./routes/profileRoutes"); // ✅ ADDED
+const profileRoutes = require("./routes/profileRoutes");
 
 const app = express();
 
@@ -19,6 +19,9 @@ app.use(express.json());
 
 // ✅ Serve uploaded files (resumes, etc.)
 app.use("/uploads", express.static(path.join(__dirname, "../uploads")));
+
+// ✅ Serve React build files
+app.use(express.static(path.join(__dirname, "../../frontend/dist")));
 
 // ================= DATABASE =================
 mongoose
@@ -43,14 +46,12 @@ app.use("/api/auth", authRoutes);
 app.use("/api/jobs", jobRoutes);
 app.use("/api/applications", applicationRoutes);
 app.use("/api/notifications", notificationRoutes);
-app.use("/api/profile", profileRoutes); // ✅ ADDED
+app.use("/api/profile", profileRoutes);
 
-// ================= FALLBACK =================
+// ================= REACT FALLBACK =================
+// ✅ Express v5 safe fallback (NO wildcard path)
 app.use((req, res) => {
-  res.status(404).json({ message: "Route not found" });
+  res.sendFile(path.join(__dirname, "../../frontend/dist/index.html"));
 });
 
 module.exports = app;
-
-
-
